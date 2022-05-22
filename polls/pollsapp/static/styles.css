@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Aldrich&family=Lato&family=Lobster&family=Poppins:wght@300;400;500;600&family=Roboto&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(234, 157, 15);
+    font-family: aldrich;
+}
+.container{
+    width: 50%;
+    /* border: 2px solid black; */
+    margin-top: 20px;
+    background-color: black;
+
+}
+.list-group{
+    margin-top: 10px;
+}
+.btn-primary{
+    margin-top: 20px !important;
+}
+label,li,input{
+    cursor: pointer
+}

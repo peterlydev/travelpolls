@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Polls App</title>
+    <!-- CSS only -->
+    <link rel= "stylesheet" type= "text/css" href= "../static/styles.css">
+
+
+</head>
+<body>
+    <nav>
+        <div class="container-fluid">
+          <a href="{% url 'index' %}"><h2>Polls Application</h2></a>
+          <button class="navbar-toggler" type="button" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+      </nav>
+</body>
+<div class = container>
+    {% block content %}
+    <h1>Hello World</h1>
+{% endblock %}
+    
+</div>
+
+</html>
